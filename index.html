@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Na's MM2 Store</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Fonte fofa estilo jogo/Roblox -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Cabeçalho da Loja -->
+  <header>
+    <div class="logo-container">
+      <h1>Na's MM2 Store</h1>
+      <p>As facas mais fofas e assustadoras do Murder Mystery 2!</p>
+    </div>
+  </header>
+
+  <!-- Conteúdo Principal -->
+  <main>
+    <section class="instrucoes">
+      <h2> Compre aqui suas facas temáticas </h2>
+      <p>Escolha seus itens de Halloween favoritos no catálogo abaixo! Clique no botão para simular o seu pedido e verificar se você ganhou desconto de travessura!</p>
+      <button onclick="simularCompra()" class="btn-simular"> Simular compra </button>
+    </section>
+
+    <!-- Catálogo de Facas MM2 Halloween -->
+    <section class="produtos">
+      <article class="card-produto">
+        <div class="badge">Lendário </div>
+        <div class="img-container">
+          <img src="assets/niks-scythe.png" alt="Nik's Scythe Cute">
+        </div>
+        <h3>Nik's Scythe Cute</h3>
+        <p class="descricao">A foice do criador em versão especial de Halloween.</p>
+        <p class="preco">R$ 150,00</p>
+      </article>
+
+      <article class="card-produto">
+        <div class="badge">Chroma </div>
+        <div class="img-container">
+          <img src="assets/chroma-darkbringer.png" alt="Chroma Darkbringer">
+        </div>
+        <h3>Chroma Darkbringer</h3>
+        <p class="descricao">Arma mística com efeito arco-íris pastel.</p>
+        <p class="preco">R$ 45,00</p>
+      </article>
+
+      <article class="card-produto">
+        <div class="badge">Especial </div>
+        <div class="img-container">
+          <img src="assets/hallows-edge.png" alt="Hallows Edge">
+        </div>
+        <h3>Hallows Edge</h3>
+        <p class="descricao">Adaga temática de Halloween</p>
+        <p class="preco">R$ 30,00</p>
+      </article>
+    </section>
+  </main>
+
+  <!-- Rodapé -->
+  <footer>
+    <p>Criado por <strong>Anandha Ferreira</strong> |© 2026</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
