@@ -6,7 +6,7 @@
 ---
 
 ## Apresentação da Loja
-A ** Na's MM2 Store** é uma loja fictícia com temática de Halloween e inspirada no jogo **Murder Mystery 2 (Roblox)**. A interface combina estética *kawaii* com cores que assemelham ao dia das bruxas.
+A **Na's MM2 Store** é uma loja fictícia com temática de Halloween e inspirada no jogo **Murder Mystery 2 (Roblox)**. A interface combina estética *kawaii* com cores que assemelham ao dia das bruxas.
 
 ### Produtos e Preços
 * **Nik's Scythe Cute:** R$ 150,00
